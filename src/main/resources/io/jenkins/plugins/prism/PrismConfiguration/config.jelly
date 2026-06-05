@@ -14,7 +14,9 @@
         </f:repeatableProperty>
       </div>
     </f:entry>
-
+    <f:entry title="${%title.protectSourceCodeByPermission}" field="protectSourceCodeByPermission">
+      <f:checkbox/>
+    </f:entry>
   </f:section>
 
 </j:jelly>
